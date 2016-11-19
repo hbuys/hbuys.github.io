@@ -11,18 +11,18 @@
         .number-one{padding:1.1em;}
  #first-line {background-color:#476C84;width:48%;}   
                  h1,h2,h3 { color:#052438;}
-                 .second-line {color:#052438;
-        padding:15px;}
-#wide-text{position:relative;width:960px;}
-                 margin:0 auto;background-color:white;}
+                 .second-line {color:#052438;padding:15px;}
+#wide-text{background-color:white;width:960px;margin:auto;position:relative;}
+#wide-text img{background-color:white;}
                  h3 {text-align: center;}
                  #third-line {text-align: center;padding:15px;}
         #one,#two,#three {float:right;padding-left:3px; padding-right:3px;margin:auto;height:55px;font-size:1.1em;width:100px;}
         img {max-width: 100%;}
-nav > ul {list-style-type: none;display:flex;line-height: 3em;flex-flow:row rap;margin:0;}
-nav li {flex: 1 1 em;margin-right:-8%;font-size: 1.2em;margin-top:30px;padding-left: 100px;}
+nav > ul {list-style-type: none;display:flex;line-height: 2em;flex-flow:row rap;margin:0;margin-top:-75px;padding:1em .6em;font-size:1.2em;}
+nav li {flex: 1 1 em;margin-right:-8%;padding-left: 100px;padding-left: 100px;}
 nav a {display:block;}
 nav a: link, nav a: visited{color:#052438;text-decoration: underline;}
-a: hover{color:#052438;background-color:#476C84; padding:1em .6em;line-height: 3em;}
+ nav a: hover{color:black;background-color:#476C84; padding:1em .6em;line-height: 3em;}
 a { color:#476C84;
 text-decoration: none;}
+a hover{color:purple;}
