@@ -26,3 +26,5 @@ nav a: link, nav a: visited{color:#052438;text-decoration: underline;}
 a { color:#476C84;
 text-decoration: none;}
 a hover{color:purple;}
+#rivers-one{font-size:1.5em;color:#052438;text-align:center;}
+#rivers-two{color:#052438;font-family:"Lucida Sans Unicode","Lucida Grande","sans-serif";}
