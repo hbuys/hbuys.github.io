@@ -29,4 +29,5 @@ a hover{color:purple;}
 #rivers-one{font-size:1.5em;color:#052438;text-align:center;}
 #rivers-two,#rivers-three,#rivers-four,#last-one{color:#6F8DA0;padding:1.1em;}
 #p-one,#p-two,#p-three{color:#476C84; padding:15px;}
+.ultimo,.one-photo, .segundo{float:right;width:48%;flex:1 0 15em;margin: .5em;margin-top:3%;}
 
