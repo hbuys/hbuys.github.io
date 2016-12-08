@@ -26,8 +26,8 @@ nav a: link, nav a: visited{color:#052438;text-decoration: underline;}
 a { color:#476C84;
 text-decoration: none;}
 a hover{color:purple;}
-#rivers-one{font-size:1.5em;color:#052438;text-align:center;}
-#rivers-two,#rivers-three,#rivers-four,#last-one{color:#6F8DA0;padding:1.1em;}
-#p-one,#p-two,#p-three{color:#476C84; padding:15px;}
+#rivers-one,#title{font-size:1.5em;color:#052438;text-align:center;}
+#rivers-two,#rivers-three,#rivers-four,#last-one,{color:#6F8DA0;padding:1.1em;}
+#p-one,#p-two,#p-three, #prices-one,#prices-two,#prices-three, #prices-four{color:#476C84; padding:15px;}
 .ultimo,.one-photo, .segundo, .rock{float:right;width:48%;flex:1 0 15em;margin: .5em;margin-top:3%;}
-#title
+.date-photo{width:50%;float:none;flex:1 0 15em;margin: .5em;margin-bottom:3%;}
