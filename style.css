@@ -1,33 +1,193 @@
-*{box-sizing: border-box;}
-        body{font-family:"Lucida Sans Unicode","Lucida Grande","sans-serif";}
-        .fullwidth{width:100%;}
-        .leftcol,.rightcol{width:48%;flex:1 0 15em;margin: .5em;}
-        #first-box,#first-line {display:flex;flex-flow:row rap;align-items: center;}
-        h1,h2,h3{font-family:"Impact,Charcoal,sans-serif";line-height:1;
-        margin-bottom:0;margin-top:0; padding:1.1em}
-                 nav {  background-color:#6F8DA0;
-                 color: #052438;}
-        #first-box{padding:1.1em;width:48%;}
-        .number-one{padding:1.1em;}
- #first-line {background-color:#476C84;width:48%;}   
-                 h1,h2,h3 { color:#052438;}
-                 .second-line {color:#052438;padding:15px;}
-#wide-text{background-color:white;width:960px;margin:auto;position:relative;}
-#wide-text img{background-color:white;}
-                 h3 {text-align: center;}
-                 #third-line {text-align: center;padding:15px;}
-        #one,#two,#three {text-align:right;float:right;padding-left:3px; padding-right:3px;margin:auto;height:55px;font-size:1.1em;width:100px;}
-        img {max-width: 100%;}
-nav > ul {list-style-type: none;display:flex;line-height: 2em;flex-flow:row rap;margin:0;margin-top:-75px;padding:1em .6em;font-size:1.2em;}
-nav li {flex: 1 1 em;margin-right:-8%;padding-left: 100px;padding-left: 100px;}
-nav a {display:block;}
-nav a: link, nav a: visited{color:#052438;text-decoration: underline;}
- nav a: hover{color:black;background-color:#476C84; padding:1em .6em;line-height: 3em;}
-a { color:#476C84;
-text-decoration: none;}
-a hover{color:purple;}
-#rivers-one,{font-size:1.5em;color:#052438;text-align:center;}
-#rivers-two,#rivers-three,#rivers-four,#last-one,{color:#6F8DA0;padding:1.1em;}
-#p-one,#p-two,#p-three, #prices-one,#prices-two,#prices-three, #prices-four{color:#476C84; padding:15px;}
-.ultimo,.one-photo, .segundo, .rock{float:right;width:40%;flex:1 0 15em;margin: .5em;margin-top:3%;}
-.date-photo{width:50%;float:none;flex:1 0 15em;margin: .5em;margin-bottom:3%;}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+}
+
+.fullwidth img{
+    width: 100%;
+}
+
+.leftcol,
+.rightcol {
+    width: 48%;
+    flex: 1 0 15em;
+    margin: .5em;
+}
+
+#first-box,
+#first-line {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Impact,Charcoal,sans-serif";
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 1.1em
+}
+
+nav {
+    background-color: #6F8DA0;
+    color: #052438;
+}
+
+#first-box {
+    padding: 1.1em;
+
+}
+
+.number-one {
+    padding: 1.1em;
+}
+
+#first-line {
+    background-color: #476C84;
+   
+}
+
+h1,
+h2,
+h3 {
+    color: #052438;
+}
+
+.second-line {
+    color: #052438;
+    padding: 15px;
+}
+
+#wide-text {
+    background-color: white;
+    max-width: 960px;
+    width:80%;
+    margin: auto;
+    position: relative;
+}
+
+#wide-text img {
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+#third-line {
+    text-align: center;
+    padding: 15px;
+}
+
+#one,
+#two,
+#three {
+    text-align: right;
+    float: right;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: auto;
+    height: 55px;
+    font-size: 1.1em;
+    width: 100px;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    line-height: 2em;
+    flex-flow: row wrap;
+    margin: 0;
+    margin-top: -75px;
+    padding: 1em .6em;
+    font-size: 1.2em;
+}
+
+nav li {
+    flex: 1 1 em;
+    margin-right: -8%;
+    padding-left: 100px;
+    padding-left: 100px;
+}
+
+nav a {
+    display: block;
+}
+
+nav a: link,
+nav a: visited {
+    color: #052438;
+    text-decoration: underline;
+}
+
+nav a: hover {
+    color: black;
+    background-color: #476C84;
+    padding: 1em .6em;
+    line-height: 3em;
+}
+
+a {
+    color: #476C84;
+    text-decoration: none;
+}
+
+a hover {
+    color: purple;
+}
+
+#rivers-one,
+{
+    font-size: 1.5em;
+    color: #052438;
+    text-align: center;
+}
+
+#rivers-two,
+#rivers-three,
+#rivers-four,
+#last-one,
+{
+    color: #6F8DA0;
+    padding: 1.1em;
+}
+
+#p-one,
+#p-two,
+#p-three,
+#prices-one,
+#prices-two,
+#prices-three,
+#prices-four {
+    color: #476C84;
+    padding: 15px;
+}
+
+.ultimo,
+.one-photo,
+.segundo,
+.rock {
+    float: right;
+    width: 40%;
+    flex: 1 0 15em;
+    margin: .5em;
+    margin-top: 3%;
+}
+
+.date-photo {
+    width: 50%;
+    float: none;
+    flex: 1 0 15em;
+    margin: .5em;
+    margin-bottom: 3%;
+}
