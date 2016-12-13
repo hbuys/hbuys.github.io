@@ -165,15 +165,23 @@ a hover {
 
 #p-one,
 #p-two,
-#p-three,
-#prices-one,
+{color:#476C84;padding: 15px;}
+
+#prices-one
 #prices-two,
 #prices-three,
-#prices-four {
-    color: #476C84;
+#prices-four,
+{color: #476C84;
     padding: 15px;
 }
-
+#part-one,
+#part-two,
+#part-three,
+#third,
+#fourth,
+#fantastic,{color: #476C84;
+    padding: 15px;
+}
 .ultimo,
 .one-photo,
 .segundo,
